@@ -1,0 +1,254 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    animation: fadeInAnimation ease-in-out 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: white;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
+
+.content{
+  max width: 980px;
+  margin: auto;
+  display: flex;
+}
+.content_img{
+ position: relative;
+ width: 175px;
+ height: 175px;
+ float: left;
+ margin-right: 10px;
+}
+a.chad{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.chad:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.DriftHunters{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.DriftHunters:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.Bloons1{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.Bloons1:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.Binding{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.Binding:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.coolmath{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.coolmath:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.lol{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.lol:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.reddit{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+a.reddit:hover{
+  transition: opacity 2s;
+  opacity: 100%;
+}
+a.Discord{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.Discord:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.EvoWorld{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.EvoWorld:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.CookieClicker{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.CookieClicker:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.Paperio{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.Paperio:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.BooIO{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.BooIO:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.giga-chad{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.giga-chad:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.Super-Blob-Blaster{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.Super-Blob-Blaster:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.spotify{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.spotify:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.geforce{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.geforce:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+a.darkroom{
+  opacity: 70%;
+  width: 175px;
+  height: 175px;
+}
+
+a.darkroom:hover{
+  opacity: 100%;
+  transition: opacity 2s;
+}
+/* Child Text Container */
+.content_img div{
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 150px;
+  padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+h1{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  color: #eee;
+}
+
+.btns {
+    user-select: none;
+    cursor: pointer;
+    display:inline-block;
+    width: auto;
+    padding: .8rem 1rem !important;
+    margin: 0 .6rem .6rem 0 !important;
+    border-radius: 3rem;
+    border: 1px solid #ffffff;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem !important;
+    transition: all .3s cubic-bezier(0.42, 0, 0.37, 1.87);
+}
+
+.btns:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+    color: #000000;
+}
